@@ -3,19 +3,48 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #edede9; /* Soft off-white with a hint of yellow */
+  --foreground: #5f4b8b; /* Darker pastel purple for contrast */
+  --primary: #a665cc; /* Pastel purple */
+  --primary-dark: #914baf; /* Slightly darker pastel purple */
+  --text-highlight: #e7e4d8; /* Accent yellow */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Softer shadow */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #b76fe0;
+    --primary-dark: #a88da3;
+    --text-highlight: #ffdb5c;
+    --shadow-color: rgba(255, 255, 255, 0.1);
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Geist', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+header, footer {
+  display: block;
+}
+
+footer {
+  box-shadow: 0 -4px 8px var(--shadow-color);
+}
+
+.clip-path-hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

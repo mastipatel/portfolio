@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "TBD",
+      "description": "TBD",
+      "link": "https://mastipatel.com"
+    },
+    {
+      "title": "FlexiPark",
+      "description": "MVP for smart parking solutions.",
+      "link": "https://flexipark.com"
+    }
+  ],
+  "work": [
+    {
+      "position": "IT Intern",
+      "company": "Halifax Learning",
+      "period": "May 2021 - Aug 2021",
+      "description": "."
+    },
+    {
+      "position": "IT co-op",
+      "company": "Scotia Investments",
+      "period": "Jan 2022 - Apr 2022",
+      "description": ""
+    },
+    {
+      "position": "Cloud Engineer",
+      "company": "Manulife",
+      "period": "Sept 2023 - APril 2024",
+      "description": ""
+    }
+  ]
+}
