@@ -106,7 +106,7 @@ export default function Home() {
         </section>
           
       
-        {/* Projects Section */}
+        {/* Projects Section
         <section
           id="projects"
           className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg my-12 max-w-4xl mx-auto"
@@ -126,7 +126,7 @@ export default function Home() {
               </a>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Contact Section */}
         <section
