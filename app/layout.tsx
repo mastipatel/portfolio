@@ -15,8 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "mastipatel.tech",
-  description: "My portfolio's description",
+  title: "Masti Patel | Portfolio",
+  description: "Full-stack engineer with AI & DevOps expertise.",
+  icons: {
+    icon: "/favicon.svg", // Path to favicon
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg", // Apple touch icon
+  },
 };
 
 export default function RootLayout({
