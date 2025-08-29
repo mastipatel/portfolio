@@ -1,14 +1,14 @@
 {
   "projects": [
     {
-      "title": "TBD",
-      "description": "TBD",
-      "link": "https://mastipatel.com"
+      "title": "Applify: Minimalist job application tracker",
+      "description": "Entire application with 15+ AWS resources deployable using AWS CloudFormation \n Dockerized both front-end and back-end for High availability deployment using Kubernetes and Terraform \n Backend supports 2 architectures: serverless and serverful architecture for flexibility",
+      "link": "https://github.com/mastipatel/applify"
     },
     {
-      "title": "FlexiPark",
-      "description": "MVP for smart parking solutions.",
-      "link": "https://flexipark.com"
+      "title": "Do-It! Household chores manager",
+      "description": "Implemented multi-user management to track each user’s progress on a shared dashboard \n Used OAuth 2.0 and refresh tokens for better user experience \n Developed more than 7 REST api methods to handle CRUD operations and actions between front-end and back-end \n Implemented reminders notifications using AWS SNS(Simple Notification System)",
+      "link": "https://do-it-frontend.netlify.app"
     }
   ],
   "work": [

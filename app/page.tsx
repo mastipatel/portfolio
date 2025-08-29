@@ -52,8 +52,8 @@ export default function Home() {
             <p className="text-lg text-foreground leading-relaxed max-w-lg">
               I'm a software engineer with a passion for building innovative and
               user-friendly solutions. I love solving problems and exploring new
-              technologies. I'm also passionate about clean code, learning new tools,
-              and always improving my skills.
+              technologies. I'm also passionate about clean code, learning new
+              tools, and always improving my skills.
             </p>
           </div>
           <div className="flex justify-center gap-4 mt-6">
@@ -65,19 +65,25 @@ export default function Home() {
             </a>
           </div>
         </section>
-
         {/* Work Experience Section */}
         <section
           id="work"
           className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg my-12 max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-semibold text-primary mb-8">Work Experience</h2>
+          <h2 className="text-4xl font-semibold text-primary mb-8">
+            Work Experience
+          </h2>
           <div className="flex flex-col gap-8 px-8">
             {data?.work?.length > 0 ? (
               data.work.map((job: any, index: number) => (
-                <div key={index} className="p-6 bg-primary text-primary-dark rounded-xl shadow-lg">
+                <div
+                  key={index}
+                  className="p-6 bg-primary text-primary-dark rounded-xl shadow-lg"
+                >
                   <h3 className="text-2xl font-bold">{job.position}</h3>
-                  <p className="text-lg">{job.company} | {job.period}</p>
+                  <p className="text-lg">
+                    {job.company} | {job.period}
+                  </p>
                   <p className="mt-2">{job.description}</p>
                 </div>
               ))
@@ -86,27 +92,32 @@ export default function Home() {
             )}
           </div>
         </section>
-
         {/* Education */}
         <section
           id="education"
           className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg my-12 max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-semibold text-primary mb-8">Education</h2>
+          <h2 className="text-4xl font-semibold text-primary mb-8">
+            Education
+          </h2>
           <div className="flex flex-col gap-8 px-8">
             <div>
-              <h3 className="text-2xl font-semibold text-primary">Diploma in Computer Networking</h3>
+              <h3 className="text-2xl font-semibold text-primary">
+                Diploma in Computer Networking
+              </h3>
               <p className="text-lg text-foreground">Seneca College</p>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold text-primary">Bachelor's in Computer Science</h3>
-              <p className="text-lg text-foreground">Dalhousie University, Halifax</p>
+              <h3 className="text-2xl font-semibold text-primary">
+                Bachelor's in Computer Science
+              </h3>
+              <p className="text-lg text-foreground">
+                Dalhousie University, Halifax
+              </p>
             </div>
           </div>
         </section>
-          
-      
-        {/* Projects Section
+        Projects Section
         <section
           id="projects"
           className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg my-12 max-w-4xl mx-auto"
@@ -126,16 +137,18 @@ export default function Home() {
               </a>
             ))}
           </div>
-        </section> */}
-
+        </section>
         {/* Contact Section */}
         <section
           id="contact"
           className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-semibold text-primary mb-6">Get in Touch</h2>
+          <h2 className="text-4xl font-semibold text-primary mb-6">
+            Get in Touch
+          </h2>
           <p className="text-lg text-foreground mb-6">
-            Feel free to reach out to me via email or connect on LinkedIn. I'm always open to exciting opportunities and collaborations.
+            Feel free to reach out to me via email or connect on LinkedIn. I'm
+            always open to exciting opportunities and collaborations.
           </p>
           <div className="flex justify-center gap-4">
             <a
