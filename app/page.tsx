@@ -65,33 +65,6 @@ export default function Home() {
             </a>
           </div>
         </section>
-        {/* Work Experience Section */}
-        <section
-          id="work"
-          className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg my-12 max-w-4xl mx-auto"
-        >
-          <h2 className="text-4xl font-semibold text-primary mb-8">
-            Work Experience
-          </h2>
-          <div className="flex flex-col gap-8 px-8">
-            {data?.work?.length > 0 ? (
-              data.work.map((job: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-6 bg-primary text-primary-dark rounded-xl shadow-lg"
-                >
-                  <h3 className="text-2xl font-bold">{job.position}</h3>
-                  <p className="text-lg">
-                    {job.company} | {job.period}
-                  </p>
-                  <p className="mt-2">{job.description}</p>
-                </div>
-              ))
-            ) : (
-              <p>No work experience available.</p>
-            )}
-          </div>
-        </section>
         {/* Education */}
         <section
           id="education"
@@ -116,6 +89,33 @@ export default function Home() {
               </p>
             </div>
           </div>
+          {/* Work Experience Section */}
+          <section
+            id="work"
+            className="flex flex-col items-center justify-center bg-[#dededa] p-8 rounded-lg shadow-lg my-12 max-w-4xl mx-auto"
+          >
+            <h2 className="text-4xl font-semibold text-primary mb-8">
+              Work Experience
+            </h2>
+            <div className="flex flex-col gap-8 px-8">
+              {data?.work?.length > 0 ? (
+                data.work.map((job: any, index: number) => (
+                  <div
+                    key={index}
+                    className="p-6 bg-primary text-primary-dark rounded-xl shadow-lg"
+                  >
+                    <h3 className="text-2xl font-bold">{job.position}</h3>
+                    <p className="text-lg">
+                      {job.company} | {job.period}
+                    </p>
+                    <p className="mt-2">{job.description}</p>
+                  </div>
+                ))
+              ) : (
+                <p>No work experience available.</p>
+              )}
+            </div>
+          </section>
         </section>
         Projects Section
         <section
