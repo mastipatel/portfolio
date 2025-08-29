@@ -1,13 +1,13 @@
 {
   "projects": [
     {
-      "title": "Applify: Minimalist job application tracker",
-      "description": "Entire application with 15+ AWS resources deployable using AWS CloudFormation \n Dockerized both front-end and back-end for High availability deployment using Kubernetes and Terraform \n Backend supports 2 architectures: serverless and serverful architecture for flexibility",
+      "title": "Applify: Job application tracker",
+      "description": "A minimalist app to manage job applications. \n   Deployed using 15+ AWS resources with CloudFormation \n   Dockerized front-end & back-end, deployed on Kubernetes with Terraform \n   Supports both serverless and serverful architectures",
       "link": "https://github.com/mastipatel/applify"
     },
     {
       "title": "Do-It! Household chores manager",
-      "description": "Implemented multi-user management to track each user’s progress on a shared dashboard \n Used OAuth 2.0 and refresh tokens for better user experience \n Developed more than 7 REST api methods to handle CRUD operations and actions between front-end and back-end \n Implemented reminders notifications using AWS SNS(Simple Notification System)",
+      "description": "A collaborative tool for tracking chores among multiple users. \n   Multi-user dashboard with progress tracking \n  Integrated OAuth 2.0 + refresh tokens for seamless login \n   Built 7+ REST APIs for CRUD operations \n   Notifications powered by AWS SNS",
       "link": "https://do-it-frontend.netlify.app"
     }
   ],
