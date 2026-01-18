@@ -13,22 +13,28 @@
   ],
   "work": [
     {
-      "position": "QA Automation Specialist",
-      "company": "Halifax Learning",
-      "period": "May 2021 - Aug 2021",
-      "description": ""
+      "position": "Radio Software Developer",
+      "company": "Ericsson",
+      "period": "Nov 2025 - Present",
+      "description": "Developing software for the NG-OLLS feature within Ericsson’s radio product stack."
     },
     {
-      "position": "Software developer Intern",
-      "company": "Scotia Investments",
-      "period": "Jan 2022 - Apr 2022",
-      "description": ""
+      "position": "BISS",
+      "company": "Halifax Learning",
+      "period": "Apr 2022 - Sep 2022",
+      "description": "Built automated UI tests with Selenium, created 20+ JUnit/Mockito unit tests, and integrated test automation into GitHub Actions CI pipelines."
+    },
+    {
+      "position": "Information Technology Intern",
+      "company": "Scotia Investments - A Family of Companies",
+      "period": "Jan 2023 - Apr 2023",
+      "description": "Built three Next.js landing sites serving 1,000+ daily visitors, automated data transforms with multithreaded Python, added Google Analytics to five sites, and delivered a SQL dashboard for product performance."
     },
     {
       "position": "Cloud Engineer",
       "company": "Manulife",
       "period": "Sept 2023 - Apr 2024",
-      "description": ""
+      "description": "Built 10+ GitHub Actions for CI/CD, automated chain releases across 5+ repos, containerized 4+ services with ACR, integrated Snyk scanning, and produced OCI images with Docker, Kaniko, and Buildah."
     }
   ]
 }

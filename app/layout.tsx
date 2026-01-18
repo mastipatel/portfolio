@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${poppins.className} bg-background`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${poppins.className} bg-background`} suppressHydrationWarning>
         {children}
       </body>
     </html>
