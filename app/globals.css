@@ -3,29 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #edede9; /* Soft off-white with a hint of yellow */
-  --foreground: #5f4b8b; /* Darker pastel purple for contrast */
-  --primary: #a665cc; /* Pastel purple */
-  --primary-dark: #914baf; /* Slightly darker pastel purple */
-  --text-highlight: #e7e4d8; /* Accent yellow */
-  --shadow-color: rgba(0, 0, 0, 0.1); /* Softer shadow */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --primary: #b76fe0;
-    --primary-dark: #a88da3;
-    --text-highlight: #ffdb5c;
-    --shadow-color: rgba(255, 255, 255, 0.1);
-  }
+  --background: #0b0c0b;
+  --foreground: #f2f2ec;
+  --surface: #111311;
+  --surface-2: #171a17;
+  --accent: #8fe64a;
+  --accent-dark: #6fb935;
+  --accent-soft: #d7f2b2;
+  --muted: #a6aaa1;
+  --border: #1e221e;
+  --shadow-color: rgba(0, 0, 0, 0.55);
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: 'Geist', sans-serif;
+  background:
+    radial-gradient(1200px circle at 20% 10%, rgba(78, 92, 78, 0.35), transparent 60%),
+    radial-gradient(900px circle at 80% 20%, rgba(120, 160, 92, 0.18), transparent 55%),
+    var(--background);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
 }
 
 a {
@@ -41,7 +38,7 @@ header, footer {
 }
 
 footer {
-  box-shadow: 0 -4px 8px var(--shadow-color);
+  box-shadow: 0 -20px 60px var(--shadow-color);
 }
 
 .clip-path-hexagon {

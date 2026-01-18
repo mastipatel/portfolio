@@ -9,9 +9,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#dededa",
-        // foreground: "#cdb4df",
-        foreground: "#b38fca",
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        surface: "var(--surface)",
+        "surface-2": "var(--surface-2)",
+        accent: "var(--accent)",
+        "accent-soft": "var(--accent-soft)",
+        muted: "var(--muted)",
+        border: "var(--border)",
+        primary: "var(--accent)",
+        "primary-dark": "var(--accent-dark)",
+        "text-highlight": "var(--surface-2)",
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
       },
     },
   },
