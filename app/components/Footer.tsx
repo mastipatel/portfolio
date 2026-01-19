@@ -4,7 +4,9 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-6xl flex-col items-start justify-between gap-6 md:flex-row md:items-center">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-muted">Masti Patel</p>
-          <p className="mt-2 text-xs text-muted">Copyright 2025.</p>
+          <p className="mt-2 text-xs text-muted">
+            Copyright {new Date().getFullYear()}.
+          </p>
         </div>
         <div className="flex gap-6 text-sm font-medium uppercase tracking-[0.2em] text-muted">
           <a href="https://github.com/mastipatel" className="transition hover:text-foreground">

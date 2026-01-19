@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 z-50 w-full border-b border-border bg-[rgba(10,12,10,0.8)] backdrop-blur-md">
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
-        <div className="flex items-center gap-3">
+        <a href="#about" className="flex items-center gap-3">
           <div className="relative flex h-12 w-12 items-center justify-center">
             <div className="absolute inset-0 rotate-12 rounded-[16px] border border-[rgba(143,230,74,0.35)] bg-[linear-gradient(145deg,rgba(143,230,74,0.15),rgba(17,19,17,0.95))] shadow-[0_14px_35px_rgba(0,0,0,0.5)]"></div>
             <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-[14px] border border-border bg-[linear-gradient(140deg,rgba(17,19,17,0.95),rgba(10,12,10,0.9))]">
@@ -39,7 +39,7 @@ export default function Header() {
             <span className="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full border border-[rgba(143,230,74,0.6)] bg-[rgba(143,230,74,0.3)]"></span>
           </div>
           <span className="text-sm uppercase tracking-[0.3em] text-muted">Portfolio</span>
-        </div>
+        </a>
 
         <ul className="hidden items-center gap-6 text-sm font-medium uppercase tracking-[0.2em] text-muted md:flex">
           <li>
